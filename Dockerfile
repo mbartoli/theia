@@ -34,3 +34,9 @@ WORKDIR /home/neuraltalk/data
 RUN wget http://cs.stanford.edu/people/karpathy/deepimagesent/coco.zip
 RUN unzip coco.zip
 
+WORKDIR /home
+RUN git clone https://github.com/mbartoli/theia
+WORKDIR /home/neuraltalk/data
+RUN ./home/theia/getData.sh
+
+
