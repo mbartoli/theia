@@ -1,4 +1,4 @@
-FROM tleyden5iwx/caffe-master
+FROM tleyden5iwx/caffe-cpu-master
 MAINTAINER Michael Bartoli <michael.bartoli@pomona.edu>
 
 RUN apt-get update
