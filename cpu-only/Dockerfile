@@ -37,6 +37,8 @@ RUN unzip coco.zip
 WORKDIR /home
 RUN git clone https://github.com/mbartoli/theia
 WORKDIR /home/neuraltalk/data
-RUN ./home/theia/getData.sh
-
+RUN wget http://shannon.cs.illinois.edu/DenotationGraph/data/flickr30k-images.tar
+RUN wget http://shannon.cs.illinois.edu/DenotationGraph/data/flickr30k.tar.gz
+RUN tar -xvf flickr30k-images.tar
+RUN tar -xvf flickr30k.tar.gz
 
