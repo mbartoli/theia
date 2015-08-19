@@ -1,3 +1,4 @@
+# Version 1.0.0
 FROM tleyden5iwx/caffe-gpu-master
 MAINTAINER Michael Bartoli <michael.bartoli@pomona.edu>
 
